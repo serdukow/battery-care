@@ -13,6 +13,12 @@ Just download latest `.dmg`
  package and then \
   `Drug % Drop` it to Application folder.\
 Make sure you have enabled 'Launch At Login' in Preferences and turned on charge status notifications.
+
+## IMPORTANT 
+
+This application is not signed by Apple Dudes, because I'm not paying for an Apple Developer Account, so
+
+To allow unsigned apps Go to System Preferences>Privacy & Security>Security>Allow application download from choose App Store and indetified developers
     
 ## License
 
