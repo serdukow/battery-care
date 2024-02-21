@@ -3,7 +3,7 @@
 </p>
 
 # Battery Care
-The battery app your for your Mac battery health
+The battery app for your Mac battery health
 
 ![UI-1](https://github.com/serdukow/battery-care/blob/main/UI.png)
 
