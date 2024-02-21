@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="22155" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22155"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="ofz-Ez-ANQ" id="MHO-cV-OZR"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="ofz-Ez-ANQ" customClass="AppDelegate" customModule="Battery_Care" customModuleProvider="target"/>
+        <customObject id="H8y-W3-fpY" customClass="ApplicationController" customModule="Battery_Care" customModuleProvider="target">
+            <connections>
+                <outlet property="applicationMenu" destination="mND-cW-PHU" id="ZAB-Vo-ezq"/>
+            </connections>
+        </customObject>
+        <customObject id="kY0-Z7-jFx" customClass="ApplicationMenuDelegate" customModule="Battery_Care" customModuleProvider="target"/>
+        <menu id="mND-cW-PHU">
+            <items>
+                <menuItem title="Unknown" enabled="NO" id="pA9-sv-Zcx">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="FmY-Tx-z4X"/>
+                <menuItem title="Quick settings" image="arrow.left.arrow.right" catalog="system" id="U4b-0P-RuN">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Quick settings" id="P0h-uk-TKb">
+                        <items>
+                            <menuItem title="20 % notification" id="nd0-i7-cyO">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <binding destination="Esk-FB-gag" name="value" keyPath="values.TwentyPercentNotificationPref" id="ioN-2B-JB3"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="80 % notification" id="y7z-mC-Zzw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <binding destination="Esk-FB-gag" name="value" keyPath="values.EightyPercentNotificationPref" id="jAt-s9-YGX"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="dme-sR-IKP"/>
+                            <menuItem title="Show Remaining" id="TPG-V6-TxK">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <binding destination="Esk-FB-gag" name="value" keyPath="values.HidePercentagePref" id="hoI-9e-D7u"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Show More Info" id="1Iq-Yq-ljg">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <binding destination="Esk-FB-gag" name="value" keyPath="values.HideBatteryInfoPref" id="BP0-Cg-mzY"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="vSA-Ww-61L"/>
+                            <menuItem title="Launch At Login" id="E8q-NR-MtM">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="launchAtLogin:" target="H8y-W3-fpY" id="nS9-YW-Mm0"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Quit" image="power" catalog="system" id="F1k-Fj-t2W">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="terminate:" target="-1" id="oZP-Gj-7ey"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+            </items>
+            <connections>
+                <outlet property="delegate" destination="kY0-Z7-jFx" id="jqi-bP-q6I"/>
+            </connections>
+            <point key="canvasLocation" x="-13.5" y="-57.5"/>
+        </menu>
+        <userDefaultsController representsSharedInstance="YES" id="Esk-FB-gag"/>
+    </objects>
+    <resources>
+        <image name="arrow.left.arrow.right" catalog="system" width="16" height="17"/>
+        <image name="power" catalog="system" width="15" height="16"/>
+    </resources>
+</document>

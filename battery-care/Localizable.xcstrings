@@ -1,0 +1,153 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Battery" : {
+
+    },
+    "Battery Charged Notification Text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery sufficiently charged"
+          }
+        }
+      }
+    },
+    "Battery Charged Notification Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging Completed"
+          }
+        }
+      }
+    },
+    "Cycle Count Capacity" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%d cycles of 1000"
+          }
+        }
+      }
+    },
+    "Cycle Count Updating" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Undefined"
+          }
+        }
+      }
+    },
+    "Low Battery Notification Text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery sufficiently discharged"
+          }
+        }
+      }
+    },
+    "Low Battery Notification Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low Battery"
+          }
+        }
+      }
+    },
+    "Notifications: 20 % Enabled" : {
+
+    },
+    "Notifications: 80 % Enabled" : {
+
+    },
+    "Notifications: All Disabled" : {
+
+    },
+    "Notifications: All Enabled" : {
+
+    },
+    "Percentage Updating" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Undefined"
+          }
+        }
+      }
+    },
+    "Power Source" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power Source"
+          }
+        }
+      }
+    },
+    "Power Source Updating" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Undefined"
+          }
+        }
+      }
+    },
+    "Time Remaining" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%d:%02d remaining"
+          }
+        }
+      }
+    },
+    "Time Remaining Updating" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Undefined"
+          }
+        }
+      }
+    },
+    "Unknown" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
