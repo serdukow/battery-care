@@ -3,7 +3,7 @@
 </p>
 
 # Battery Care
-The battery app for your Mac battery health. Pretty simple, classy and powerful. 
+The battery app for your Mac battery health. Pretty simple, classy and helpful. 
 
 ![UI-1](https://github.com/serdukow/battery-care/blob/main/UI.png)
 
