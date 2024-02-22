@@ -60,7 +60,7 @@ struct MenuInfoView: View {
                 HStack(alignment: .top, spacing: 2) {
                     Image(systemName: "bell.badge.fill")
                         .foregroundColor(beige)
-                    Text("Notifications: All Enabled")
+                    Text("Notifications: Enabled")
                         .foregroundColor(.secondary)
                         .font(.system(size: 13))
                 }
@@ -87,7 +87,7 @@ struct MenuInfoView: View {
                 HStack(alignment: .top, spacing: 2) {
                     Image(systemName: "bell.badge.slash.fill")
                            .foregroundColor(.red)
-                    Text("Notifications: All Disabled")
+                    Text("Notifications: Disabled")
                         .foregroundColor(.secondary)
                         .font(.system(size: 13))
                 }
