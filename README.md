@@ -13,6 +13,7 @@ Just download latest `.dmg`
  package and then \
   `Drug % Drop` it to Application folder.\
 Make sure you have enabled 'Launch At Login' in Quick Settings and turned on charge status notifications. 
+
 Also make sure you allowed notifications in System Preferences>Notifications>Battery Care, choose alerts and turn switch On
 
 ## IMPORTANT 
