@@ -17,7 +17,8 @@ Just download latest `.dmg`
 
 ## IMPORTANT 
 
-This application is not signed by Apple Dudes, because I'm not paying for an Apple Developer Account, so to allow unsigned apps Go to System Preferences>Privacy & Security>Security>Allow application download from choose App Store and indetified developers
+This application is not signed by Apple Dudes, because I'm not paying for an Apple Developer Account, so to allow unsigned apps Go to System Preferences>Privacy & Security>Security>Allow applications downloaded from...
+Choose App Store and indetified developers
     
 ## License
 
