@@ -1,6 +1,6 @@
 //
 //  BatteryService.swift
-//  mojito
+//  battery-care
 //
 //  Created by Andre on 15.02.2024.
 //
