@@ -10,7 +10,7 @@ The battery app for your Mac battery health. Pretty simple, classy and helpful.
 ## Installation
 
 Just download latest `.dmg`
- release and then \ `Drug % Drop` it to application folder.
+ release and then `Drug % Drop` it to application folder.
 - Make sure you`ve enabled 'Launch At Login' in Quick Settings and turned on charge status notifications. 
 - Make sure you`ve allowed notifications in System Preferences>Notifications>Battery Care, turn on 'Allow Notifications', then choose Alerts
 
