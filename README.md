@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/serdukow/battery-care/blob/main/battery-care/Assets.xcassets/AppIcon.appiconset/icon-1024.png" alt="Logo" width="200">
+    <img src="https://github.com/serdukow/battery-care/blob/main/battery-care/logo.png" alt="Logo" width="200">
 </p>
 
 # Battery Care
